@@ -1,0 +1,20 @@
+body {
+    background: lightgreen;
+}
+
+h1, p {
+    text-align: center;
+}
+
+/*#data-cadastro {
+    width: 50;
+}*/
+
+.el {
+    padding-left: 400px;
+}
+
+.enviar, .limpar {
+    padding: 15px 50px ;
+    font-size: 16px;
+}

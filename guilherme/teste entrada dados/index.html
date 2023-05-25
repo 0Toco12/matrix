@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste</title>
+</head>
+<body onload="pegarData()">
+    <h1>Teste de Máscara para Entrada de Dados</h1>
+    <section>
+        <form>
+            <table border="10">
+                <tr>
+                    <td>
+                        <p>NOME</p>
+                    </td>
+                    <td colspan="6" class="input">
+                        <input type="text" placeholder="digite seu nome aqui" id="nome" size="120px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Endereço</p>
+                    </td>
+                    <td colspan="6" class="input">
+                        <input type="text" placeholder="digite seu endereço aqui" id="endereço" size="120px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <P>Data de Nascimento</P>
+                    </td>
+                    <td class="input">
+                        <input type="date" id="dns">
+                    </td>
+                    <td width="100px">
+                        <p>Telefone</p>
+                    </td>
+                    <td class="input">
+                        <input type="tel" data-format="(00) 00000-0000" placeholder="(99) 99999-9999" id="tel">
+                    </td>
+                    <td>
+                        <p>CPF</p>
+                    </td>
+                    <td class="input">
+                        <input type="text" placeholder="000.000.000-00" id="CPF">
+                    </td>
+                    <td>
+                        <p>Data Cadastro</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>EMAIL</p>
+                    </td>
+                    <td class="input">
+                        <input type="email" placeholder="nome@provedor.com" id="email">
+                    </td>
+                    <td>
+                        <p>RG</p>
+                    </td>
+                    <td class="input">
+                        <input type="text" placeholder="000.000.000-00" id="rg">
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td class="input">
+                        <input id="data-cadastro" style="width: 100px;">
+                    </td>                
+                </tr>
+                <tr>
+                    <td class="el" colspan="7">
+                        <input class="enviar" type="submit" value="enviar">
+                        <input class="limpar" type="reset" value="limpar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
